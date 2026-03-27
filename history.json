@@ -1,0 +1,124 @@
+[
+    {
+        "timestamp": "2026-03-26 08:16:32.329509",
+        "user_story": "login functionality",
+        "output": [
+            {
+                "test_case_id": "TC001",
+                "description": "Valid username and password, successful login",
+                "steps": [
+                    "Enter valid username in the input field",
+                    "Enter valid password in the input field",
+                    "Click on the Login button"
+                ],
+                "expected_result": "User is successfully logged in"
+            },
+            {
+                "test_case_id": "TC002",
+                "description": "Invalid username, unsuccessful login",
+                "steps": [
+                    "Enter invalid username in the input field",
+                    "Enter valid password in the input field",
+                    "Click on the Login button"
+                ],
+                "expected_result": "Error message is displayed for invalid username"
+            },
+            {
+                "test_case_id": "TC003",
+                "description": "No username, unsuccessful login",
+                "steps": [
+                    "Leave username input field blank",
+                    "Enter valid password in the input field",
+                    "Click on the Login button"
+                ],
+                "expected_result": "Error message is displayed for missing username"
+            },
+            {
+                "test_case_id": "TC004",
+                "description": "No password, unsuccessful login",
+                "steps": [
+                    "Enter valid username in the input field",
+                    "Leave password input field blank",
+                    "Click on the Login button"
+                ],
+                "expected_result": "Error message is displayed for missing password"
+            },
+            {
+                "test_case_id": "TC005",
+                "description": "Caps lock error, unsuccessful login",
+                "steps": [
+                    "Enter valid username in lowercase in the input field",
+                    "Enter valid password with at least one uppercase letter in the input field",
+                    "Click on the Login button"
+                ],
+                "expected_result": "Error message is displayed for case sensitivity issue"
+            }
+        ]
+    },
+    {
+        "timestamp": "2026-03-26 08:34:50.099531",
+        "user_story": "login functionality",
+        "output": [
+            {
+                "test_case_id": "TC001",
+                "description": "Valid username and password for successful login",
+                "steps": [
+                    "Open the login page",
+                    "Enter valid username and password",
+                    "Click on the login button"
+                ],
+                "expected_result": "User should be logged in successfully",
+                "priority": "High",
+                "confidence_score": 80
+            },
+            {
+                "test_case_id": "TC002",
+                "description": "Invalid username for unsuccessful login",
+                "steps": [
+                    "Open the login page",
+                    "Enter invalid username and valid password",
+                    "Click on the login button"
+                ],
+                "expected_result": "Error message should be displayed for invalid username",
+                "priority": "Medium",
+                "confidence_score": 80
+            },
+            {
+                "test_case_id": "TC003",
+                "description": "Invalid password for unsuccessful login",
+                "steps": [
+                    "Open the login page",
+                    "Enter valid username and invalid password",
+                    "Click on the login button"
+                ],
+                "expected_result": "Error message should be displayed for invalid password",
+                "priority": "Medium",
+                "confidence_score": 80
+            },
+            {
+                "test_case_id": "TC004",
+                "description": "Empty username field for unsuccessful login",
+                "steps": [
+                    "Open the login page",
+                    "Leave username field empty and enter valid password",
+                    "Click on the login button"
+                ],
+                "expected_result": "Error message should be displayed for empty username field",
+                "priority": "Low",
+                "confidence_score": 80
+            },
+            {
+                "test_case_id": "TC005",
+                "description": "Empty password field for unsuccessful login",
+                "steps": [
+                    "Open the login page",
+                    "Enter valid username and leave password field empty",
+                    "Click on the login button"
+                ],
+                "expected_result": "Error message should be displayed for empty password field",
+                "priority": "Low",
+                "confidence_score": 80
+            }
+        ]
+    }
+]

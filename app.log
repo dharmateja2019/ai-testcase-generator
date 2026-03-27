@@ -1,0 +1,11 @@
+2026-03-26 08:14:45,880 - INFO - Attempt 1
+2026-03-26 08:14:45,881 - INFO - Calling LLM with model: llama3.1:8b
+2026-03-26 08:16:32,327 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-26 08:16:32,329 - INFO - Parsing successful
+2026-03-26 08:32:32,308 - INFO - Attempt 1
+2026-03-26 08:32:32,308 - INFO - Calling LLM with model: phi3:mini
+2026-03-26 08:32:32,312 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 404 Not Found"
+2026-03-26 08:32:53,162 - INFO - Attempt 1
+2026-03-26 08:32:53,162 - INFO - Calling LLM with model: llama3.1:8b
+2026-03-26 08:34:50,087 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-03-26 08:34:50,089 - INFO - Parsing successful
